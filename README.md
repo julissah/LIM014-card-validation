@@ -39,13 +39,9 @@ El presente proyecto permitira al usuario validar su tarjeta antes de realizar u
 
    Recibí Feedback de los couch Fares y Genesis y tambien de mis compañeras, lo cual me ayudo bastante al iniciar mi proyecto ya que tome mucho tiempo en prototipo, diseño, colores, fuentes, entres otros...
    Genesis me enseño a priorizar mis tareas y centrarme el mis objetivos de aprendizaje <3.
-   
+
 ### Prototipo final
 
 ![alt text](src/img/MacBook2.png)
 
-
-
 ***
-
-
