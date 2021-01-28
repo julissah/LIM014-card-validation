@@ -14,9 +14,10 @@
 EccoFood en una empresa que ofrece productos organicos de calidad con sabor natural incomparable.
 El presente proyecto permitira al usuario validar su tarjeta antes de realizar una compra de sus diferente productos.
 
+
 ## Proyecto final
 
-![alt text](src/img/Proyecto_EcoFood.png)
+![alt text](src/img/Proyectofinal.png)
 
 ## UX
 
