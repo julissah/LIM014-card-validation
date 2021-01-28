@@ -1,0 +1,156 @@
+  * {
+    margin:0;
+    padding: 0;
+  }
+
+  body{
+    background-image: url(./img/EcoFoodFondo.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover; 
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+/* 
+  .responsive {
+    height: 100vh;
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} */
+
+  .hide {
+    display: none;
+  }
+
+  .home {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .in-flex {
+    flex: 1;
+    min-width: 370px;
+  }
+
+  .in-flex:first-child {
+    flex: 2;
+  }
+
+  .in-flex div {
+    margin: 5px;
+  }
+
+  .screen {
+    text-align: center;
+    margin: auto;
+    align-content: center;
+    background: #4B7447;
+    width: 55%;
+    height: auto;
+    margin-top: 250PX;
+    border-radius: 50px;
+    min-width: 400px;
+  }
+/* 
+  h1{
+    margin-top: 50px;
+    font-weight: bold;
+    color: #Ffffff;
+    align-content: center;
+  } */
+
+  h2{
+    font-weight: normal;
+    color: #Ffffff;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  
+  .numberCreditCard{
+    font-size:18px;
+    background:#FFFFFF;
+    border-radius:10px;
+    text-align:center;
+    padding:5px;
+    margin:10px;
+    border:2px solid #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 270px;
+  }
+
+  img{
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
+  #nameTarjeta{
+    font-size:18px;
+    background:#FFFFFF;
+    border-radius:10px;
+    text-align:center;
+    padding:5px;
+    margin:10px;
+    border:2px solid #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 270px;
+  }
+
+  #btnBuy, #btnHome{
+    background:#FF5757;
+    color:#FFFFFF;
+    border:2px solid #FF5757; 
+    border-radius:10px;
+    padding:5px;
+    margin: 1em;
+    font-size:18px;
+    font-weight: normal;
+  }
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #ffffff;
+  margin: auto;
+  padding: 20px;
+  width: 15%;
+  text-align: center;
+  align-content: center;
+  height: auto;
+  margin-top: 180px; 
+  border-radius: 50px;
+  min-width: 200px;
+}
+
+/* .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+} */
+
+/* .close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+} */
+
+
+  
+
+  

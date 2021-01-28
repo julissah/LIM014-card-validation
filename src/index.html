@@ -4,13 +4,80 @@
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <body>
-    <header></header>
-    <main>
-      <h1>Card Validation</h1>
-    </main>
-    <footer></footer>
+  <body >
+    <!--Aquí inicia la cabecera-->
+    
+    <!-- <header class="">
+      <img src="./img/logo.jpg" alt="logo" class="logo"
+   
+      
+  </header> -->
+  <!--Aquí inicia el contenido-->
+  <main>
+    
+      <!--Pantalla de Validación de tarjeta-->
+      <section class="screen home" id="pRegister">
+        
+        <div class="in-flex">
+          <img src="./img/creditCard.png" alt="logo" class="logo" width="400px"> 
+        </div>
+
+        <div class="in-flex">
+          <form >
+            <h2>VALIDACIÓN DE TARJETA</h2>
+            <div id="list">
+              <input type="text" placeholder="#### #### #### ####" id="numberCard" class="numberCreditCard" maxlength="16">
+            </div>
+            <div>
+              <input type="text" placeholder="Nombre del titular de la tarjeta" id="nameTarjeta">
+            </div>                
+            
+            <section  id="bEnviar">
+              <div>
+               <button type="button" id="btnBuy">ENVIAR</button>
+              </div>
+            </section>
+            
+            <section class="hide"  id="bInicio">
+              <div>
+               <button type="button" id="btnHome">INICIO</button>
+              </div>
+            </section>
+          </form>
+        </div>
+          
+      </section>
+
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <!-- <span class="close">&times;</span> -->
+          <img src="./img/correct.png" alt="check" >
+          <p>¡Tajeta correcta!</p>
+        </div>
+      </div>
+
+      <div id="myModal1" class="modal">
+        <div class="modal-content">
+          <!-- <span class="close">&times;</span> -->
+          <img src="./img/error.png" alt="check" >
+          <p>¡Tajeta incorrecta!</p>
+        </div>
+      </div>
+      
+      
+
+
+  </main>
+  <!--Aquí inicia el pie de página-->
+  <footer>
+    
+  </footer>
+
+ 
     <script src="index.js" type="module"></script>
   </body>
 </html>
